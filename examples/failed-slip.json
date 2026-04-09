@@ -1,0 +1,17 @@
+{
+  "proof_id": "proof-001",
+  "from_token": "USDC",
+  "to_token": "OKB",
+  "amount_in": "25",
+  "quote": {
+    "dex_name": "Uniswap V3",
+    "quoted_output": "104.30",
+    "price_impact_percent": "0.90",
+    "slippage_percent": "0.50"
+  },
+  "tx": {
+    "tx_hash": "0xabc123",
+    "status": "failed",
+    "failure_reason": "slippage exceeded"
+  }
+}
