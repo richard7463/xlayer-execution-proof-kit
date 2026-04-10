@@ -1,0 +1,22 @@
+{
+  "proof_id": "flasharb-probe-2026-04-10",
+  "from_token": "USD₮0",
+  "to_token": "OKB",
+  "amount_in": "0.10",
+  "quote": {
+    "dex_name": "aggregator",
+    "quoted_output": "0.001191282709490817",
+    "price_impact_percent": "0.00",
+    "slippage_percent": "0.50"
+  },
+  "tx": {
+    "tx_hash": "0x04fde8b044b4a6e7891e1c25b653f8d6efb6da2782dd97f764281fa53999be61",
+    "approval_tx_hash": "0x7d879066eee2b8316e9d2de84cf851abb22d1aa9403f60d04d4dfb5b3314babe",
+    "status": "success",
+    "realized_output": "0.001191282709490817",
+    "settled_at": "2026-04-10T05:11:49Z"
+  },
+  "pnl_delta_percent": "-0.048",
+  "source_project": "flasharb-xlayer-arbitrage-bot",
+  "source_note": "Bounded-size probe round executed because no opportunity exceeded thresholds."
+}

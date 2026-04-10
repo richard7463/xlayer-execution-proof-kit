@@ -1,0 +1,7 @@
+{
+  "proof_id": "flasharb-probe-2026-04-10",
+  "outcome_class": "success",
+  "tx_hash": "0x04fde8b044b4a6e7891e1c25b653f8d6efb6da2782dd97f764281fa53999be61",
+  "reason": "Execution completed and the route delivered a settled transaction result.",
+  "moltbook_summary": "Proof flasharb-probe-2026-04-10: success. Route aggregator was selected for USD\u20ae0->OKB. Execution completed and the route delivered a settled transaction result. Source: flasharb-xlayer-arbitrage-bot."
+}

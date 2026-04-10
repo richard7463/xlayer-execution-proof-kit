@@ -1,0 +1,21 @@
+{
+  "proof_id": "fightclub-mmr-exit-2026-04-10",
+  "from_token": "OKB",
+  "to_token": "USD₮0",
+  "amount_in": "0.00359668",
+  "quote": {
+    "dex_name": "aggregated",
+    "quoted_output": "0.300212",
+    "price_impact_percent": "0.00",
+    "slippage_percent": "0.50"
+  },
+  "tx": {
+    "tx_hash": "0xef0f5414f56b5ebc889f95102934840c22dd96da1fb0092065dd4d76e4b5a41c",
+    "status": "success",
+    "realized_output": "0.300212",
+    "settled_at": "2026-04-10T01:17:42.647Z"
+  },
+  "pnl_delta_percent": "0.07",
+  "source_project": "xlayer-agent-fight-club",
+  "source_note": "Live breakout/reversion exit executed through Agentic Wallet on X Layer."
+}

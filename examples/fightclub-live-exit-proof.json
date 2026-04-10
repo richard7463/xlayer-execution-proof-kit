@@ -1,0 +1,7 @@
+{
+  "proof_id": "fightclub-mmr-exit-2026-04-10",
+  "outcome_class": "success",
+  "tx_hash": "0xef0f5414f56b5ebc889f95102934840c22dd96da1fb0092065dd4d76e4b5a41c",
+  "reason": "Execution completed and the route delivered a settled transaction result.",
+  "moltbook_summary": "Proof fightclub-mmr-exit-2026-04-10: success. Route aggregated was selected for OKB->USD\u20ae0. Execution completed and the route delivered a settled transaction result. Source: xlayer-agent-fight-club."
+}

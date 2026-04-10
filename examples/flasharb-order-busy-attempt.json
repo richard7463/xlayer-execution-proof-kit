@@ -1,0 +1,19 @@
+{
+  "proof_id": "flasharb-order-busy-2026-04-10",
+  "from_token": "USD₮0",
+  "to_token": "OKB",
+  "amount_in": "0.10",
+  "quote": {
+    "dex_name": "aggregator",
+    "quoted_output": "0.001191282709490817",
+    "price_impact_percent": "0.00",
+    "slippage_percent": "0.50"
+  },
+  "tx": {
+    "tx_hash": "",
+    "status": "failed",
+    "failure_reason": "Pay send-uop failed, result: {\"error_message\":\"another order processing\"}"
+  },
+  "source_project": "flasharb-xlayer-arbitrage-bot",
+  "source_note": "Observed in live runtime while another Agentic Wallet order was still being processed."
+}

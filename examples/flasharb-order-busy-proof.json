@@ -1,0 +1,7 @@
+{
+  "proof_id": "flasharb-order-busy-2026-04-10",
+  "outcome_class": "execution-error",
+  "tx_hash": "",
+  "reason": "Execution path was blocked by wallet or order concurrency before a clean fill could settle.",
+  "moltbook_summary": "Proof flasharb-order-busy-2026-04-10: execution-error. Route aggregator was selected for USD\u20ae0->OKB. Execution path was blocked by wallet or order concurrency before a clean fill could settle. Source: flasharb-xlayer-arbitrage-bot."
+}

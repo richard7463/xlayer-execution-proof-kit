@@ -59,6 +59,13 @@ The proof model is designed to sit behind:
 
 It does not replace execution. It standardizes evidence after or around execution.
 
+## Onchain Identity
+
+- network: `X Layer`
+- chain index: `196`
+- submission wallet: `0xdbc8e35ea466f85d57c0cc1517a81199b8549f04`
+- deployment model: no custom contract deployment; this skill is an offchain evidence layer that packages execution data from Agentic Wallet and OnchainOS-connected agents
+
 ## Working Mechanics
 
 1. An agent provides an execution attempt.
@@ -91,7 +98,28 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python3 -m execution_proof_kit.cli --example failed-slip
+python3 -m execution_proof_kit.cli --input-json examples/fightclub-live-exit-attempt.json
 ```
+
+## Live Proof Examples
+
+This repo now includes live transaction-backed proof examples built from real X Layer activity on **April 10, 2026**.
+
+Included examples:
+
+- `fightclub-live-exit-proof.json`
+  - built from a real `Agent Fight Club` exit transaction
+- `flasharb-live-probe-proof.json`
+  - built from a real `FlashArb` bounded-size probe round
+- `flasharb-order-busy-proof.json`
+  - built from a real live runtime failure caused by Agentic Wallet order concurrency
+
+Proof files:
+
+- [Live Examples](/Users/yanqing/Documents/GitHub/miraix-interface/projects/xlayer-execution-proof-kit/docs/live-examples.md)
+- [Fight Club Proof](/Users/yanqing/Documents/GitHub/miraix-interface/projects/xlayer-execution-proof-kit/examples/fightclub-live-exit-proof.json)
+- [FlashArb Probe Proof](/Users/yanqing/Documents/GitHub/miraix-interface/projects/xlayer-execution-proof-kit/examples/flasharb-live-probe-proof.json)
+- [FlashArb Failure Proof](/Users/yanqing/Documents/GitHub/miraix-interface/projects/xlayer-execution-proof-kit/examples/flasharb-order-busy-proof.json)
 
 ## Submission Positioning
 
@@ -116,15 +144,20 @@ Already done:
 - proof-bundle builder
 - CLI demo surface
 - Skills Arena docs
+- public GitHub repo
+- live transaction-backed proof examples
 
 Still required:
 
-- live transaction examples from OnchainOS execution
 - Moltbook submission post
 - demo video
+- Google Form submission package
 
 ## Docs
 
 - [Skill Spec](/Users/yanqing/Documents/GitHub/miraix-interface/projects/xlayer-execution-proof-kit/SKILL.md)
 - [Project Positioning](/Users/yanqing/Documents/GitHub/miraix-interface/projects/xlayer-execution-proof-kit/docs/project-positioning.md)
 - [Skills Arena Checklist](/Users/yanqing/Documents/GitHub/miraix-interface/projects/xlayer-execution-proof-kit/docs/skills-arena-checklist.md)
+- [Live Examples](/Users/yanqing/Documents/GitHub/miraix-interface/projects/xlayer-execution-proof-kit/docs/live-examples.md)
+- [Submission Post](/Users/yanqing/Documents/GitHub/miraix-interface/projects/xlayer-execution-proof-kit/docs/submission-post.md)
+- [Submission Runbook](/Users/yanqing/Documents/GitHub/miraix-interface/projects/xlayer-execution-proof-kit/docs/submission-runbook.md)

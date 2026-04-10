@@ -19,6 +19,8 @@ class TxContext:
     status: str
     realized_output: Optional[Decimal] = None
     failure_reason: str = ""
+    approval_tx_hash: str = ""
+    settled_at: str = ""
 
 
 @dataclass(frozen=True)
@@ -30,6 +32,8 @@ class ExecutionAttempt:
     quote: QuoteContext
     tx: TxContext
     pnl_delta_percent: Optional[Decimal] = None
+    source_project: str = ""
+    source_note: str = ""
 
 
 @dataclass(frozen=True)

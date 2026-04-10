@@ -3,7 +3,7 @@
 ## Required
 
 1. Public GitHub repo
-   - status: pending initial push
+   - status: done
 
 2. README with required sections
    - status: done
@@ -13,7 +13,7 @@
    - status: done
 
 4. Live transaction-backed proof examples
-   - status: pending
+   - status: done
 
 5. Submission materials
    - Moltbook post
@@ -23,7 +23,7 @@
 
 ## Final Blocking Items
 
-1. live OnchainOS execution examples
-2. Moltbook submission post
-3. X post link
-4. short demo video
+1. Moltbook submission post
+2. X post link
+3. short demo video
+4. Google Form submission package
